@@ -1,1 +1,7 @@
-<?php echo '<h1> Hola alumnos </h1>'; ?>
+<h1><?php
+the_title(); ?></h1> 
+
+
+<?php 
+echo the_content();
+?>
