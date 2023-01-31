@@ -10,8 +10,8 @@
     <header>
         <nav>
             <ul>
-            <li>Página 1</li>    
-            <li>Página 2</li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/sobre-nosotros/">Sobre Nosotros</a></li>
             </ul>
         </nav>
     </header>
