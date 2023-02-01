@@ -1,1 +1,1 @@
-$agrupapost = __DIR__ . '/agrupapost/';
+$agrupapost = __DIR__ .'/agrupapost/';
