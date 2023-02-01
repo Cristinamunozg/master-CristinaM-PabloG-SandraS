@@ -6,7 +6,7 @@ echo the_content();
 ?>
 <?php
 include 'agrupapost/agrupapost.php';
-//include $agrupapost/agrupapost.php';
+//include $agrupapost.'agrupapost.php';
 ?>
 <?php //include_once 'footer.php';
 get_footer();
