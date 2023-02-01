@@ -1,0 +1,1 @@
+$agrupapost = __DIR__ .'/agrupapost/';
