@@ -4,7 +4,7 @@ the_title(); ?></h1>
 <?php
 if (get_field('descripcion-corta')){
     ?>
-<div class="descripcion-corta"><?php the_field( 'descripcion-corta' ); ?> es la descripción</div>
+<div class="descripcion-corta"><?php the_field( 'descripcion-corta' ); ?> . Esta es la descripción</div>
 <?php
 }
 else{;}
