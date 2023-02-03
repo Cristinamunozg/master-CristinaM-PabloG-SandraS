@@ -10,7 +10,7 @@ get_header ();
 
 <section id="contenido">
 <?php
-echo category_description ();
+echo category_description();
 ?>
 
 </section>
