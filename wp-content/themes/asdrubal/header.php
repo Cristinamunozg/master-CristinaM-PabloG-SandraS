@@ -5,7 +5,9 @@
           <meta charset="UTF-8">
           <link rel="stylesheet" href="/wp-content/themes/asdrubal/style.css" type="text/css" />
 
-<?php wp_head();?>
+<?php 
+include 'wp-content/themes/asdrubal/plantilllas/metaetiquetas/metas-seo.php';
+wp_head();?>
         </head>
     <body>
     <header>

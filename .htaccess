@@ -1,4 +1,7 @@
-
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTPS} off
+RewriteRule (.*) HTTPS://master-cristinam-pablog-sandras.test/$1 [R=301,L,QSA]
+</IfModule>
 # BEGIN WordPress
 # Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
 # generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
