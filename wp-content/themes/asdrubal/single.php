@@ -3,6 +3,32 @@
 #precio::after { 
     content: "€";
   }
+  .festi
+  {
+height: 400px;
+aspect-ratio: 5/4;
+object-fit: cover;
+background-image: url("/imagenes/imagenclase.jpg");
+  }
+  .back
+  {
+background-image: url("https://master-cristinam-pablog-sandras.test/wp-content/uploads/chucho2.jpg");
+background-repeat:no-repeat;
+height:500px;
+  }
+  .tabla
+  {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+background-color: #f2f2f2;
+color: #444; 
+  }
+  .agrupa
+  {
+display: flex;
+justify-content: center;
+  }
 </style>
 <h1><?php
 the_title(); ?></h1> 
@@ -16,9 +42,11 @@ else{;}
 ?>
 <?php echo the_content();
 ?>
+<div class="back"></div>
+<div class="agrupa">
+<img class="festi" src="<?php the_field( 'imagenfesti' ); ?>" />
 <?php if (in_category('productos')){    }?>
-
-<table>
+<table class="tabla">
     <tr>
         <th></th>
         <th>fechas</th>
@@ -49,7 +77,7 @@ else{;}
         <th>Precio</th>
         <td id="precio"><?php the_field( 'precio'); ?></td>
 </tr>
-
+</div>
 <!--?php
     else {;}
     echo the_content();
