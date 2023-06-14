@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://master-cristinam-pablog-sandras.test/asdrubalers/</loc>
+    <lastmod>2023-06-08</lastmod>
+  </url>
+  <url>
+    <loc>https://master-cristinam-pablog-sandras.test/plasplas/pirola/</loc>
+    <lastmod>2023-06-05</lastmod>
+  </url>
+  <url>
+    <loc>https://master-cristinam-pablog-sandras.test/generador-de-sitemap/</loc>
+    <lastmod>2023-06-02</lastmod>
+  </url>
+  <url>
+    <loc>https://master-cristinam-pablog-sandras.test/plasplas/</loc>
+    <lastmod>2023-02-13</lastmod>
+  </url>
+</urlset>

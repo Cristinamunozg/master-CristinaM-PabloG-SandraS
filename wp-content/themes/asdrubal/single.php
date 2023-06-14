@@ -78,9 +78,4 @@ else{;}
         <td id="precio"><?php the_field( 'precio'); ?></td>
 </tr>
 </div>
-<!--?php
-    else {;}
-    echo the_content();
-    ?>
-
 <?php include_once 'footer.php';?>

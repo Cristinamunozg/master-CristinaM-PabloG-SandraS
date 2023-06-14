@@ -11,4 +11,6 @@ License: GPLv2
 include 'includes/borrar-sitemap.php';
 // Generar plantilla
 include 'includes/template-generator.php';
+// Datos estructurados
+include 'includes/json.php';
 ?>

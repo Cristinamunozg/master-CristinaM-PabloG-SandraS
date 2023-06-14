@@ -27,7 +27,7 @@ $obtencionblog = new WP_Query( $argsblog );
 if ($obtencionblog->have_posts()) :
 while ($obtencionblog->have_posts()) : $obtencionblog->the_post();
 if (!get_field("canonical")) {
-$metarobots_checked_values = get_field('metarobots');
+$metarobots_checked_values = get_field('meta_robots');
 if ($metarobots_checked_values && (in_array('all', $metarobots_checked_values) || in_array('index', $metarobots_checked_values))) {
 $enlace = get_permalink();
 $lastestmod = get_the_modified_date('Y-m-d');
@@ -65,7 +65,7 @@ $obtencionpage = new WP_Query( $argspage );
 if ($obtencionpage->have_posts()) :
 while ($obtencionpage->have_posts()) : $obtencionpage->the_post();
 if (!get_field("canonical")) {
-$metarobots_checked_values = get_field('metarobots');
+$metarobots_checked_values = get_field('meta_robots');
 if ($metarobots_checked_values && (in_array('all', $metarobots_checked_values) || in_array('index', $metarobots_checked_values))) {
 $enlace = get_permalink();
 $lastestmod = get_the_modified_date('Y-m-d');
@@ -84,7 +84,7 @@ echo '<a class="exitbutton" href="' . $rutita . '/pablomap.xml" target="_blank">
 $dompage->save('pablomap.xml') or die('XML Create Error');
 
 
-echo "<h2>Noticias</h2>";
+echo "<h2>Noticia</h2>";
 $domnoticia = new DOMDocument('1.0','UTF-8');
 $domnoticia->formatOutput = true;
 $domnoticia->preserveWhiteSpace = false;
@@ -106,7 +106,7 @@ $obtencionnoticia = new WP_Query( $argsnoticia );
 if ($obtencionnoticia->have_posts()) :
 while ($obtencionnoticia->have_posts()) : $obtencionnoticia->the_post();
 if (!get_field("canonical")) {
-$metarobots_checked_values = get_field('metarobots');
+$metarobots_checked_values = get_field('meta_robots');
 if ($metarobots_checked_values && (in_array('all', $metarobots_checked_values) || in_array('index', $metarobots_checked_values))) {
 $enlace = get_permalink();
 $lastestmod = get_the_modified_date('Y-m-d');
